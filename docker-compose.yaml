@@ -9,6 +9,8 @@ services:
         depends_on:
             - php
     php:
+        build:
+          context: .
         ports:
             - "9000:9000"
         volumes:
