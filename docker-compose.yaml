@@ -17,6 +17,8 @@ services:
             - .:/code
         depends_on:
             - mysql
+        env_file:
+            - .env
     mysql:
         image: mysql:9.1
         ports:
