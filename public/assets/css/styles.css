@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Public Sans';
+}
+
+h2{
+    font-size: 40px;
+    padding-bottom: 3%;
+    font-family: 'Outfit';
+}
+
+p{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+hr{
+    color: lightgrey;
+}
+
+/*revisar los botones para que el enlace 
+se expanda a toda la superficie*/
+
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #48D597;
+    display: flex;
+    align-items: center;
+    padding: 0% 10%;
+ }
+
+
+
+#logoArea{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+#logo{
+    width: 100px;
+}
+
+#logoTitle{
+    text-decoration: none;
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 2%;
+}
+
+
+.menu{
+    flex-grow: 1;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    gap: 2%;
+}
+
+.menu li{
+    padding: 15px 10px;
+    font-size: 18px;
+    width: 5%;
+    INTER
+}
+
+.botonNegro{
+    background-color: black;
+    padding: 15%;
+}
+
+.botonNegro a{
+    color: white;
+    font-size: 18px;
+}
+
+header{
+    padding: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+h1{
+    font-size: 64px;
+    padding-bottom: 3%;
+    padding-right: 30%;
+    font-family: 'Outfit';
+}
+
+.fila1 p{
+    font-size: 24px;
+    padding-bottom: 3%;
+    padding-right: 50%;
+}
+
+
+.botonNegro2{
+    background-color: black;
+    padding: 1%;
+}
+
+.botonNegro2 a{
+    color: white;
+    font-size: 18px;
+}
+
+#super{
+    width: 50%;
+    padding-left: 10%;
+}
+
+.fila2{
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10%;
+}
+
+.col1fila2{
+    width: 45%;
+}
+
+.col2fila2{
+    width: 45%;
+}
+
+.fila3{
+    background-color: #F9F9F9;
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10%;
+}
+
+.fila3 ul{
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+.fila1Registrar{
+    display: flex;
+    flex: 1;
+}
+
+
+.formulario{
+    padding: 10%;
+    width: 60%;
+}
+
+input{
+    width: 90%;
+    padding: 2%;
+    border-radius: 10px;
+    border-color: #D0D5DD;
+    background-color: #F9F9FA;
+    margin-top: 1%;
+}
+
+.botonRegistrar{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 3%;
+    width: 95%;
+}
+
+.botonRegistrar a, a.hover{
+    color: white;
+}
