@@ -87,12 +87,12 @@ nav{
     INTER
 }
 
-.botonNegro{
+.bottonBlack{
     background-color: black;
     padding: 15%;
 }
 
-.botonNegro a{
+.bottonBlack a{
     color: white;
     font-size: 18px;
 }
@@ -110,19 +110,19 @@ h1{
     font-family: 'Outfit';
 }
 
-.fila1 p{
+.row1 p{
     font-size: 24px;
     padding-bottom: 3%;
     padding-right: 50%;
 }
 
 
-.botonNegro2{
+.bottonBlack2{
     background-color: black;
     padding: 1%;
 }
 
-.botonNegro2 a{
+.bottonBlack2 a{
     color: white;
     font-size: 18px;
 }
@@ -132,45 +132,17 @@ h1{
     padding-left: 10%;
 }
 
-.fila2{
-    padding: 5% 10%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    column-gap: 10%;
-}
 
-.col1fila2{
-    width: 45%;
-}
-
-.col2fila2{
-    width: 45%;
-}
-
-.fila3{
-    background-color: #F9F9F9;
-    padding: 5% 10%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    column-gap: 10%;
-}
-
-.fila3 ul{
-    padding-left: 5%;
-    padding-top: 2%;
-}
-
-.fila1Registrar{
+.row1Register{
     display: flex;
     flex: 1;
 }
 
 
-.formulario{
+.form{
     padding: 10%;
-    width: 60%;
+    padding-top: 5%;
+    width: 40%;
 }
 
 input{
@@ -182,7 +154,7 @@ input{
     margin-top: 1%;
 }
 
-.botonRegistrar{
+.bottonRegister{
     background-color: black;
     color: white;
     font-size: 18px;
@@ -190,6 +162,10 @@ input{
     width: 95%;
 }
 
-.botonRegistrar a, a.hover{
+.bottonRegister a, a.hover{
+    color: white;
+}
+
+.bottonRegister a{
     color: white;
 }
