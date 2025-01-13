@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
     <head>
 
         <meta charset="utf-8"/>
@@ -11,15 +10,12 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Outfit:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital@0;1&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
-
+    
         <title>
             Conjugator
         </title>
 
-        <meta 
-            name= "Conjugator" 
-            content= "Spanish verbs made easy."
-        >
+        <meta name= "Conjugator" content= "Spanish verbs made easy.">
 
         <link 
             rel="icon" 
@@ -27,16 +23,17 @@
             type="image/x-icon" 
             sizes="any"
         >
+    
+        {% block stylesheets %}
+        {% endblock %}
 
+        {% block javascripts %}
+        {% endblock %}
     </head>
     
     <body>
-
         <div class="container">
-
-            
             <nav>
-
                 <div id="logoArea">
                     <a href="#">
                         <img 
@@ -48,68 +45,25 @@
                     <a href="index.php" id="logoTitle">
                         Conjugator
                     </a>
-                </div>
+                    </div>
 
                 <ul class="menu">
 
                     <li>
-                        <a href="#"><b>Home</b></a>
+                        <a href="{{ path('index') }}"><b>Home</b></a>
                     </li>
 
                     <li>
-                        <a href="#"><b>Login</b></a>
+                        <a href="{{ path('login') }}"><b>Login</b></a>
                     </li>
 
                     <li>
-                        <button class="bottonBlack"><a href="#"><b>Register</b></a></button>
+                        <button class="bottonBlack"><a href="{{ path('register') }}"><b>Register</b></a></button>
                     </li>
 
                 </ul>
-
-
-
             </nav>
-
-
-            <div class="fila1Registrar">
-
-                <section class="form">
-
-                    <h2>
-                        Enter your account
-                    </h2>
-
-                    <p>
-                    Don't have an account? 
-                    <a href="#"><b>Register</b></a>
-                    <br><br>
-                    </p>
-
-
-                    <form>
-
-
-                            <div>
-                                <label for="email"><b>Email</b></label><br>
-                                <input type="email"/><br><br>
-                            </div>
-
-                            <div>
-                                <label for="password"><b>Password</b></label><br>
-                                <input type="password"/><br><br>
-                            </div>
-
-                            <br/>
-                            
-                        <button type="submit" class="bottonLogin"><a href="#">Login</a></button>
-
-                    </form>
-
-                </section>
-
-
-            </div>
+            {% block body %}{% endblock %}
         </div>
     </body>
-
-</html> 
+</html>

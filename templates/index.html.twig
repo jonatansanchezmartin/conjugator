@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <header>
+        <div class="row1">
+            <h1>
+                Struggling with Spanish verbs?
+            </h1>
+
+            <div id="pRow1"></div>
+                <p>
+                    Conjugator is here to build your fluency with Spanish tenses.<br/><br/> 
+                    
+                    This website breaks down tricky conjugations in 
+                    a friendly and approachable way.
+                </p>
+            </div>
+
+            <button class="bottonBlack2">
+                <a href="{{ path('register') }}"><b>Register</b></a>
+            </button>
+
+            <button class="bottonBlack2">
+                <a href="{{ path('login') }}"><b>Login</b></a>
+            </button>
+        </div>
+    </header>
+{% endblock %}

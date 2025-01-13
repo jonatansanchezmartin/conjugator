@@ -1,0 +1,53 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<div class="fila1Registrar">
+
+    <section class="form">
+
+        <h2>
+            Create an account
+        </h2>
+
+        <p>
+        Already have an account? 
+        <a href="#"><b>Sign in</b></a>
+        <br><br>
+        </p>
+
+
+        <form>
+
+                <div>
+                    <label for="Name"><b>Nombre</b></label><br>
+                    <input type="text" id="Name"/><br><br>
+                </div>
+
+                <div>
+                    <label for="email"><b>Email</b></label><br>
+                    <input type="email"/><br><br>
+                </div>
+
+                <div>
+                    <label for="password"><b>Password</b></label><br>
+                    <input type="password"/><br><br>
+                </div>
+
+                <div>
+                    <label for="confirm-password"><b>Confirm password</b></label><br>
+                    <input type="password" id="confirm-password"/><br><br>
+                </div>
+
+                <br/>
+                
+            <button type="submit" class="bottonRegister"><a href="#">Register</a></button>
+
+        </form>
+
+    </section>
+
+
+</div>
+
+{% endblock %}
